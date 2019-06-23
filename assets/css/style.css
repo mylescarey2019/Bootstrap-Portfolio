@@ -1,0 +1,14 @@
+/* style css */
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  background-image: url(../images/brickwall.png)
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+}

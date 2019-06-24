@@ -15,9 +15,11 @@ body {
 
 .container {
   width: 100%;
+  height: auto;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  
 }
 
 h1 {
@@ -27,6 +29,7 @@ h1 {
   color: #4aaaa5;
   padding-bottom: 20px;
   border-bottom: 2px solid #dddddd;
+  margin-bottom: 30px;
 
 }
 
@@ -80,10 +83,10 @@ h1 {
 
 #auth-image {
   float: left;
-  width: 300px;
+  width: 350px;
   height: auto;
   padding-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 20px; */
 }
 
 /* nav menu - social icon container */
@@ -97,3 +100,69 @@ h1 {
   width: 30px;
   height: 30px;
 }
+
+/* footer container */
+footer {
+  background-color: #666666;
+  position: relative;
+  height: 70px;
+  border-top: 8px solid #4aaaa5;
+  font-size: 9pt;
+  color: #cccccc;
+  margin-top: 30px;
+}
+
+/* copyright container */
+/* absolute position the Copyright up from bottom 
+   center the Copyright within footer horizontally using the transform.
+   Do same for icon attribution
+*/
+#copyRight {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translate(-50%);
+  }
+
+/* container for the icon usage attribution */
+#iconCredit {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 8px;
+  }
+
+
+  /*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+
+/* resize nav item margins */
+@media screen and (max-width: 768px) {
+  .nav-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+  }
+
+  #masthead {
+    margin-bottom: 0px;
+    position: static;
+  }
+  #main-container {
+    margin-top: 6px;
+  }
+
+}
+  /* The body's bg color will be #333 */
+  /* body {
+    background-color: #333;
+  } */
+
+  /* The wrapper's width will be 600px */
+  /* .wrapper {
+    width: 600px;
+  }
+} */

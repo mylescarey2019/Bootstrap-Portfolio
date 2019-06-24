@@ -5,10 +5,95 @@
 }
 
 body {
-  background-image: url(../images/brickwall.png)
+  background-image: url(../images/brickwall.png);
+  background-color: #ffffff;
+  line-height: 1.8em;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
 }
 
 .container {
   width: 100%;
   max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aaaa5;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #dddddd;
+
+}
+
+
+#navbar-pad {
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+#masthead {
+  width: 100%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 72px; */
+
+  /* margin: 0 0 30px 0; */
+  border-bottom: 2px solid #777777;
+  margin-bottom: 30px;
+  /* overflowL  auto */
+    /* position: fixed; */
+}
+
+#logo {
+  width: 250px;
+  height: 88px;
+  background-color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 28px 20px 12px 20px;
+  
+
+
+}
+
+#main-container {
+  padding: 30px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: 2px solid #dddddd;
+
+
+}
+
+#auth-image {
+  float: left;
+  width: 300px;
+  height: auto;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+/* nav menu - social icon container */
+.nav-item {
+  padding: 20px 0px 20px 20px; 
+  padding-bottom: 20px;
+}
+
+/* nav menu - social icon image */
+.social-icon {
+  width: 30px;
+  height: 30px;
 }

@@ -41,6 +41,10 @@ h3 {
   font-size: 22px;
 }
 
+h6 {
+  margin-bottom: 0px;
+}
+
 #navbar-pad {
   padding-left: 0;
   padding-right: 0;
@@ -135,7 +139,7 @@ p:first-of-type {
 .portfolioBox h3 {
   position: absolute;
   /* why is this requiring negative */
-  bottom: -5px;
+  bottom: 10px;
   background-color: #4aaaa5;
   color: #ffffff;
   font-size: 14pt;
@@ -167,6 +171,59 @@ p:first-of-type {
 }
 
 
+/* contact me form container */
+form {
+  padding-top: 20px;
+}
+
+/* contact me form text input field */
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0px 20px;
+  display: inline-block;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  font-size: 10pt;
+  color: #777777;
+  line-height: normal;
+}
+
+/* contact me form input field highlighting when active */
+ input:focus, textarea:focus {
+   outline: none !important;
+   border-color:1px solid #18847e;
+   box-shadow: 0 0 5px #4aaaa5;
+  }
+
+ /* contact me form message box */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 20px;
+  margin: 6px 0px 20px;
+  display: inline-block;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  font-size: 10pt;
+  color: #777777;
+  resize: none;
+}
+
+/* contact me submit button */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 12pt;
+}
+
+/* contact me submit button hover */
+input[type=submit]:hover {
+  background-color: #18847e;
+}
 
 
 
@@ -217,28 +274,29 @@ footer {
     height: 40px;
   }
 
-  #auth-image {
+  /* #auth-image {
     margin-top: 5px;
   }
   
   h1 {
     padding-bottom: 0px;
     margin-bottom: 5px;
-  }
+  } */
 
   /* first paragraph */
-  p:first-of-type {
+  /* p:first-of-type {
     margin-top: 5px;
-  }
+  } */
 
   /* html {
     font-size: 1.2rem;
   } */
 
-  .portfolioBox img {
+  /* .portfolioBox img {
     margin-top: 5px;
+    margin-bottom: 5px;
+  } */
 
-  }
   .portfolioBox h3 {
     font-size: 14pt;
 

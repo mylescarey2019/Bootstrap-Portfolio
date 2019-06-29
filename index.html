@@ -18,6 +18,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+
+  <!-- Code assessment:
+       Refactoring points of my Basic Portfolio solution to leverage Bootstrap had some challenges as the Basic Porfolio code 
+       is first HTML/CSS effort and while produces visual desired results it is full of room for improvement.
+       This Bootstrap version itself could be improved in addition to cleaning up the baggage present from the Basic Portfolio starting point.
+       
+       Features - Bootstrap:
+       
+        1. BootStrap Nav bar with expandable/collapsable button rendered at the small breakpoint.  Navbar is sticky top.
+        2. About Me page under utlizes Bootstrap using just one row / one 12 width column with sm breakpoint
+        3. Portfolio page uses rows / columns for the project collectionw
+        4. Contact page also under utilized Bootstrap using two rows with one 12 span column.  Has sm breakpoint 
+        5. Small breakpoint activates a static header so that it scrolls up/out of viewport
+        6. Some use of media queries to help better fit nav bar icons and footer icon attribution text
+        
+        
+      Missing or pooly inplemented:
+      
+        1. Margins - need to revisit to get appropriate margins.  Only the larger widths above 960 show appropriate margins.
+           Ran out of time exploring where code was falling short and/or needed correction
+
+        2. Portfolio - landscape modes don't always produce a clean center section ending up leaving a column of space in the body
+           not fitting in three project columns.
+
+        3. Code passed validation, but really need to refactor it for better techniques, better semantics and eliminating/redoing ids and classes
+
+        4. In the footer the text for Icon attribution text got troublesome on smaller form factors so needed media query to rearange 
+
+        5. Better comments needed throughout
+
+        6. A proper README.md file is needed - looking into templates and ideas via google
+        
+      Possible enhancements:
+
+        1. Want to move social media links off the nav bar to their one container on the body as they cause challenges at the smaller form factors
+        
+  -->
+
+
     <!-- nav bar -->
     <nav id="masthead" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
       <div id="navbar-pad" class="container">

@@ -150,22 +150,6 @@ p:first-of-type {
   line-height: auto;
 }
 
-/* portfolio project image caption */
-/* .imageText {
-  position: relative; */
-  /* z-index needed so image banner slides under header when scroll down */
-  /* z-index: 0;  
-  bottom: 70px;
-  left: 1px;
-  width: 250px;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  font-size: 14pt;
-  box-sizing: border-box;
-  padding: 20px;
-  text-align: center;
-} */
-
 /* used for portfolio projects that are active and have been linked to */
 .portBoxIsActive:hover {
   opacity: .5;
@@ -275,29 +259,6 @@ footer {
     height: 40px;
   }
 
-  /* #auth-image {
-    margin-top: 5px;
-  }
-  
-  h1 {
-    padding-bottom: 0px;
-    margin-bottom: 5px;
-  } */
-
-  /* first paragraph */
-  /* p:first-of-type {
-    margin-top: 5px;
-  } */
-
-  /* html {
-    font-size: 1.2rem;
-  } */
-
-  /* .portfolioBox img {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  } */
-
   .portfolioBox h3 {
     font-size: 14pt;
 
@@ -326,13 +287,4 @@ footer {
     width: 100%;
     }
 }
-  /* The body's bg color will be #333 */
-  /* body {
-    background-color: #333;
-  } */
-
-  /* The wrapper's width will be 600px */
-  /* .wrapper {
-    width: 600px;
-  }
-} */
+  

@@ -1,4 +1,4 @@
-# Portfolio - Bootstrap
+# Portfolio
 
 Personal Project Portfolio
 
@@ -9,7 +9,7 @@ This is a Portfolio with a landing About Me page, a Portfolio page and a contact
 It utilizes HTML, CSS and Bootstrap framework.  The Portfolio page will be updated as each new project is completed.
 
 ## Deployed Page:
-https://mylescarey2019.github.io/Bootstrap-Portfolio/
+https://mylescarey2019.github.io/Portfolio/
 
 ![Portfolio page](assets/images/portfoliopage.png)
 

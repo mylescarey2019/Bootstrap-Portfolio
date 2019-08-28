@@ -3,15 +3,23 @@
 Personal Project Portfolio
 
 ## Description
- 
-This is a Portfolio with a landing About Me page, a Portfolio page and a contact page.
+
+This is a Portfolio with a landing About Me page, a Portfolio page and a contact and resume links.
 
 It utilizes HTML, CSS and Bootstrap framework.  The Portfolio page will be updated as each new project is completed.
 
 ## Deployed Page:
 https://mylescarey2019.github.io/Portfolio/
 
-![Portfolio page](assets/images/portfoliopage.png)
+
+
+## Use Example:
+
+
+
+![use-example](./assets/images/use-example.gif)
+
+
 
 
 ## Getting Started
@@ -43,7 +51,7 @@ Myles Carey
 mylescarey2019@gmail.com 
 
 ## Version History
- 
+
 * 0.1
     * Initial Release
 
